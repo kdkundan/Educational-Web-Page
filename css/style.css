@@ -1,0 +1,173 @@
+html{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+body{
+    width: 100%;
+}
+
+/*=============== Navbar Style Starts Here ===============*/
+
+#nav_bar {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    min-height: 80px;
+}
+
+#navbarToggler {
+    color: white;
+}
+
+.nav-link {
+    color: #ffffff;
+    padding: 8px 15px;
+    margin: 8px 25px;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    transform: scale(1.5);
+}
+/*=============== Navbar Style Ends Here ===============*/
+
+
+/*=============== Features Style Starts Here ===============*/
+
+#features_cont{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: #fff;
+}
+
+#feature_heading {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.feat_card{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+/*=============== Features Style Ends Here ===============*/
+
+/*=============== Courses Style Starts Here ===============*/
+
+.container{
+    margin-top: 50px;
+    padding: 50px 20px;
+}
+
+#courses_heading{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+.course_name{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.course_cost{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.course_desc{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*=============== Courses Style Ends Here ===============*/
+
+
+/*=============== Footer Style Starts Here ===============*/
+#footer{
+    background-color: black;
+    color: #fff;
+    padding: 50px 30px;
+}
+
+#icons_list{
+    list-style-type: none;
+    width: inherit;
+    display: inline-flex;
+    padding-left: 50px;
+    color: #ffffff;
+    padding: 8px 15px;
+    margin: 8px 25px;
+}
+
+#address_section{
+    padding: 30px 60px;
+}
+
+.foot{
+    padding: 30px 60px;
+}
+
+#address_section{
+    padding: 30px 60px;
+}
+
+#newsletter_email{
+    width: 100%;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid #303030;
+    height: 50px;
+    margin: 5px 0;
+}
+
+#newsletter_signup{
+    border: 1px solid #f9f9f9;
+    border-radius: 50px;
+    height: 40px;
+/*    color: #ffffff;*/
+    display: block;
+    margin-top: 10px;
+    outline: none;
+    width: 50%;
+}
+
+#newsletter_signup:hover {
+    background-color: #4ac9b1;
+}
+
+#logo_cont{
+    width: inherit;
+    margin: auto;
+}
+
+
+i:hover{
+    color: #4ac9b1;
+    
+}
+
+.icons{
+    color: #fff;
+    margin-left: 65px;
+}
+
+/*=============== Footer Style Ends Here ===============*/
